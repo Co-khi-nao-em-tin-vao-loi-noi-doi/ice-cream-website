@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IceCream</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <!--Embed CSS here-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styleindex.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="row header">
+            <div class="header-title col-md-4">
+                <h4 class="text-center">1 cup of ice cream = Thousand words of love</h4>
+            </div>
+            <div class="header-image col-md-4">
+                <img class="img-responsive img-circle" src="images/logoice.png" alt="Ice Cream Logo" />
+            </div>
+            <div class="header-title col-md-4">
+                <h3 class="text-center">Where love begins</h3>
+            </div>
+        </header>
+        
+        <!-- Navigation Menu -->
+        <nav class="menu row">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#icecream-menu">Ice Cream Menu</a></li>
+                <li><a href="#milk-tea-menu">Milk Tea Menu</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Banner -->
+        <section class="banner">
+            <img class="img-responsive" src="images/Bannerice01.jpg" alt="Ice Cream Banner 1" />
+            <img class="img-responsive" src="images/Bannerice02.jpg" alt="Ice Cream Banner 2" />
+        </section>
+        
+        <!-- Product Section -->
+        <main>
+            <section class="product row">
+                <div class="col-md-4 image-product">
+                    <img class="img-responsive" src="images/kemsaurieng.jpg" alt="Durian ice-cream" />
+                </div>
+                <div class="col-md-8 product-content">
+                    <h3>Durian Ice-cream</h3>
+                    <p>Durian ice cream is a favorite dessert made from durian.</p>
+                    <p>Durian ice cream is both an attractive dessert and at the same time a food that provides us with a lot of energy (about 456 calories).</p>
+                    <p>8 simple ways to make durian ice cream at home very delicious:</p>
+                    <ul>
+                        <li><h4>How to make durian ice cream with whipping cream</h4></li>
+                        <li><h4>How to make durian ice cream without eggs</h4></li>
+                        <li><h4>How to make durian ice cream without fresh milk</h4></li>
+                        <li><h4>How to make durian ice cream without gelatin</h4></li>
+                        <li><h4>How to make durian ice cream with fresh milk</h4></li>
+                        <li><h4>How to make green bean durian ice cream</h4></li>
+                        <li><h4>How to make chocolate durian ice cream</h4></li>
+                        <li><h4>How to make banana durian ice cream</h4></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- Options Section -->
+            <section class="row option">
+                <div class="option-choose col-md-6">
+                    <h1 class="text-center title">Ice Cream & Milk Tea</h1>
+                    <p class="text-center title">-----------Menu List-----------</p>
+                    <div class="option-item">
+                        <h5><input id="checkbox1" type="checkbox" onclick="CalTotal()">Coconut Cream</h5>
+                        <h5>2$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox2" type="checkbox" onclick="CalTotal()">Strawberry Ice-cream</h5>
+                        <h5>2.5$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox3" type="checkbox" onclick="CalTotal()">Durian Ice-cream</h5>
+                        <h5>3$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox4" type="checkbox" onclick="CalTotal()">Butter Cream</h5>
+                        <h5>2$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox5" type="checkbox" onclick="CalTotal()">Jackfruit Ice Cream</h5>
+                        <h5>3$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox6" type="checkbox" onclick="CalTotal()">Lychee Tea</h5>
+                        <h5>3$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox7" type="checkbox" onclick="CalTotal()">Kumquat Tea</h5>
+                        <h5>2$</h5>
+                    </div>
+                    <div class="option-item">
+                        <h5><input id="checkbox8" type="checkbox" onclick="CalTotal()">Peach Tea</h5>
+                        <h5>2.5$</h5>
+                    </div>
+                    <div id="btn" class="buy-button">
+                        <input type="button" value="Order" onclick="CalTotal()">
+                    </div>
+                </div>
+                <div class="option-paid col-md-6">
+                    <h1 class="text-center title">Ice Cream & Milk Tea</h1>
+                    <p class="text-center title">-----------Menu List-----------</p>
+                    <div class="submit">
+                        <h3>Total Amount:</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="row footer">
+            <p class="text-center">Email: Icecream@gmail.com</p>
+            <p class="text-center">Address: 100 To Hien Thanh, District 10, HCMC</p>
+            <h5 class="text-center">&copy; Copyright 2021. IceCream.com</h5>
+        </footer>
+    </div>
+    
+    <!-- Add your JavaScript here -->
+    <script>
+        function CalTotal() {
+            // JavaScript code to calculate total amount
+        }
+    </script>
+</body>
+</html>
